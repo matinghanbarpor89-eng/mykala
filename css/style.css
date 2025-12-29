@@ -1,3 +1,6 @@
 body{direction:rtl;font-family:tahoma;background:#f5f6f8}
-.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
-.card{background:#fff;padding:10px;border-radius:8px}
+header{background:#ef394e;color:#fff;padding:10px}
+header a{color:#fff;margin:0 10px;text-decoration:none}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px;padding:15px}
+.card{background:#fff;padding:10px;border-radius:10px}
+button{background:#ef394e;color:#fff;border:none;padding:6px 10px;border-radius:6px}
