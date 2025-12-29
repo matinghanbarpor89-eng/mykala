@@ -1,0 +1,1 @@
+function doLogin(){location.href="admin.html";}

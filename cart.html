@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>سبد خرید</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h2>سبد خرید</h2>
+<div id="cartItems"></div>
+<script src="js/data.js"></script>
+<script src="js/cart.js"></script>
+<script>
+const div=document.getElementById("cartItems");
+getCart().forEach(p=>{
+ div.innerHTML+=`<p>${p.name} - ${p.price}</p>`;
+});
+</script>
+</body>
+</html>
